@@ -14,11 +14,8 @@ public class City {
 	@Id
 	private Long id;
 
-	public City(Long id) {
-		this.id = id;
-	}
-
 	public City() {
+
 	}
 
 	public Long getId() {
