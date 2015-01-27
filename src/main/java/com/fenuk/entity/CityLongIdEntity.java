@@ -5,7 +5,7 @@ import org.mongodb.morphia.utils.LongIdEntity;
 
 public class CityLongIdEntity extends LongIdEntity {
 
-	protected CityLongIdEntity(Datastore ds) {
+	public CityLongIdEntity(Datastore ds) {
 		super(ds);
 	}
 
