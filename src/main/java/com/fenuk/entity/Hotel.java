@@ -13,10 +13,6 @@ public class Hotel {
 	@Id
 	private Long id;
 
-	public Hotel(Long id) {
-		this.id = id;
-	}
-
 	public Hotel() {
 	}
 
